@@ -1,26 +1,54 @@
-* {
+body {
   margin: 0;
   padding: 0;
-}
-body {
-    background: #0DCF7C;
+  background: #0DCF7C;
 }
 .contenedorGeneral {
   display: flex;
 }
 .cabecera{
   display: flex;
+  width: 100%;
+  flex-direction: row;
+  background: #85E6EA;
 }
 .barraNavegacion {
   display: flex;
-  top: 20%;  
+  justify-content: flex-end;
+  justify-content: space-around;
+}
+a {
+  display: flex;
 }
 .imagenes {
+  padding: 40px;
   display: flex;
   justify-content: center;
   align-content: space-around;
 }
+div {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1px;
+
+}
 img {
   width: 200px;
   height: 200px;
+}
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+button {
+  display: flex;
+}
+.texto {
+  display: flex;
+  justify-content: flex-end;
+}
+p {
+  margin: 5px;
 }
